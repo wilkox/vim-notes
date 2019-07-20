@@ -1039,7 +1039,7 @@ function! xolox#notes#insert_bullet(chr) " {{{3
 endfunction
 
 function! xolox#notes#get_bullet(chr)
-  return xolox#notes#unicode_enabled() ? '•' : a:chr
+  return '-'
 endfunction
 
 function! xolox#notes#indent_list(direction, line1, line2) " {{{3
